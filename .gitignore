@@ -1,0 +1,24 @@
+# Secrets and local env files
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+logs/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.log
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

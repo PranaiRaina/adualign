@@ -1,0 +1,17 @@
+# Local logs
+logs/
+*.log
+*.jsonl
+
+# Local environment and caches
+.env
+.env.*
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+# VCS and editor cruft
+.git/
+.github/
+.DS_Store

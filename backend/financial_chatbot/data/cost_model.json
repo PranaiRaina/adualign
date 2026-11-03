@@ -1,0 +1,103 @@
+{
+  "pricing_version": 5,
+  "detached_pricing": {
+    "tiers": [
+      { "up_to_sqft": 400, "cost_per_sqft": 350 },
+      { "up_to_sqft": 750, "cost_per_sqft": 265 },
+      { "cost_per_sqft": 200 }
+    ],
+    "minimum_base_cost": 140000
+  },
+  "attached_pricing": {
+    "tiers": [
+      { "up_to_sqft": 400, "cost_per_sqft": 300 },
+      { "up_to_sqft": 750, "cost_per_sqft": 225 },
+      { "cost_per_sqft": 165 }
+    ],
+    "minimum_base_cost": 122500
+  },
+  "county_multipliers": {
+    "San Francisco County": 1.4,
+    "San Mateo County": 1.4,
+    "Santa Clara County": 1.4,
+    "Alameda County": 1.4,
+    "Contra Costa County": 1.4,
+    "Marin County": 1.4,
+    "Napa County": 1.4,
+    "Sonoma County": 1.4,
+    "Solano County": 1.4,
+    "San Diego County": 1.4,
+    "Los Angeles County": 1.25,
+    "Orange County": 1.25,
+    "Ventura County": 1.25,
+    "Santa Barbara County": 1.25,
+    "Riverside County": 1.1,
+    "San Bernardino County": 1.1
+  },
+  "complications": {
+    "slope": {
+      "display_label": "Slope / retaining wall work",
+      "kind": "fixed_amount",
+      "low": 10000,
+      "high": 35000,
+      "midpoint": 22500
+    },
+    "demolition": {
+      "display_label": "Demolition or structure removal",
+      "kind": "fixed_amount",
+      "low": 1000,
+      "high": 10000,
+      "midpoint": 5500
+    },
+    "electric_panel": {
+      "display_label": "Electrical panel upgrade",
+      "kind": "fixed_amount",
+      "low": 3500,
+      "high": 7000,
+      "midpoint": 5250
+    },
+    "septic_tank": {
+      "display_label": "Septic tank work",
+      "kind": "fixed_amount",
+      "low": 5000,
+      "high": 20000,
+      "midpoint": 12500
+    },
+    "solar_mandate": {
+      "display_label": "Solar mandate",
+      "kind": "fixed_amount",
+      "low": 7000,
+      "high": 12000,
+      "midpoint": 9500
+    },
+    "fire_resilient_upgrades": {
+      "display_label": "Fire-resilient materials and safety upgrades",
+      "kind": "fixed_amount",
+      "low": 5000,
+      "high": 10000,
+      "midpoint": 7500,
+      "display_range": "$5,000 - $10,000 for fire-resilient materials and possible sprinkler-related upgrades"
+    },
+    "very_high_fire_risk": {
+      "display_label": "Very High fire risk compliance",
+      "kind": "fixed_amount",
+      "low": 10000,
+      "high": 17500,
+      "midpoint": 13750,
+      "display_range": "$10,000 - $17,500 for Chapter 7A materials and 2026 Zone Zero defensible space"
+    },
+    "contingency": {
+      "display_label": "Construction contingency",
+      "kind": "percent_of_subtotal",
+      "percent": 0.1,
+      "display_range": "Adds 10% for unforeseen conditions"
+    },
+    "hoa_restrictions": {
+      "display_label": "HOA-driven design costs",
+      "kind": "per_sqft",
+      "low_per_sqft": 15,
+      "high_per_sqft": 35,
+      "midpoint_per_sqft": 25
+    }
+  }
+}

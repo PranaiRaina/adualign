@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment files (NEVER COMMIT THESE)
+.env
+.env.*
+!.env.example
+
+# Ruff / Linting / Formatting
+.ruff_cache/
+.mypy_cache/
+
+# VS Code / IDEs
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# Mac OS
+.DS_Store
+
+# pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs/
+*.log
+local_debug.log
+local_debug.jsonl
+
+# Local Vector DBs
+RAG_pipeline/data/chroma_db/
+
+# AI Agents & Tooling (Shared Locally)
+.agent/
+
+# Test artifacts
+response.txt
+*.txt.bak
+
+logs/
+
+# Celery Beat generated state
+celerybeat-schedule
